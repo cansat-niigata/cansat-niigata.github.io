@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="NiCs_style.css">
+    <title>NiCs - 新潟大学 CanSat Project</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="jquery.js"></script>
+    <script>
+        $(document).on('click', '.nav_toggle', function () {
+            $('.nav_toggle, .nav').toggleClass('show');
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <span class="nav_toggle">
+            <i></i>
+            <i></i>
+            <i></i>
+        </span>
+        <nav class="nav">
+            <ul class="nav_menu_ul">
+                <li class="nav_menu_li"><a class="burger_menu" href="https://cansat-niigata.github.io/">
+                        <font color="white" size="5">Home</font>
+                    </a></li>
+                <li class="nav_menu_li"><a class="burger_menu" href="https://cansat-niigata.github.io/history">
+                        <font color="white" size="5">History</font>
+                    </a></li>
+                <li class="nav_menu_li"><a class="burger_menu" href="https://cansat-niigata.github.io/about">
+                        <font color="white" size="5">About CanSat</font>
+                    </a></li>
+                <li class="nav_menu_li"><a class="burger_menu" href="https://cansat-niigata.github.io/education">
+                        <font color="white" size="5">Education</font>
+                    </a></li>
+                <li class="nav_menu_li"><a class="burger_menu" href="https://cansat-niigata.github.io/teams">
+                        <font color="white" size="5">Teams</font>
+                    </a></li>
+                <li class="nav_menu_li"><a class="burger_menu" href="https://cansat-niigata.github.io/partners">
+                        <font color="white" size="5">Our Partners</font>
+                    </a></li>
+                <li class="nav_menu_li"><a class="burger_menu" href="https://cansat-niigata.github.io/contact">
+                        <font color="white" size="5">Contact Us</font>
+                    </a></li>
+            </ul>
+        </nav><a href="https://cansat-niigata.github.io/">
+            <img src="image/logo4.png" alt=" NiCs logo" class="logo"></a>
+        <h1><a class="logo_word" href="https://cansat-niigata.github.io/">
+                <font color="white"><span class="space"></span>NiCs</font>
+            </a></h1>
+    </header>
+
+    <main id="main1" class="main1">
+        <h2>Our Partners</h2>
+        <div class="for_partners">
+            <p>
+                <font size="4px">支援団体の方々へ</font><br>
+            <div class="width90">
+                <p><span
+                        class="space"></span>新潟大学CanSatプロジェクトの活動にご支援いただき、誠にありがとうございます。私どもの活動にご理解いただいたご厚意にメンバー一同、深く感謝しております。<br>
+                    <span class="space"></span>私たちはこれからもCanSat、ロケットの開発を続けて、技術力の向上、大会での優勝を目指して活動していきます。<br>
+                    <span class="space"></span>今後とも、どうか末永いお力添えを頂きますよう宜しくお願い申し上げます。<br>
+                </p>
+            </div>
+            </p>
+        </div>
+    </main>
+
+    <hr>
+    <main id="partners" class="partners">
+        <p style="text-align: center;">
+            <font font size="5px" font color=#696969>OUR PARTNERS</font>
+        </p>
+        <div class="flex">
+            <div class="flex-item">
+                <a href="https://www.misumi.co.jp/">
+                    <div class="image-trim_none-object-fit">
+                        <!--横のほうが長いとき"image-trim"を使う-->
+                        <img src="image/misumi_logo.png">
+                    </div>
+                </a>
+            </div>
+            <div class="flex-item">
+                <a href="http://www.e-nss.com/">
+                    <div class="image-trim">
+                        <!--縦のほうが長いとき"image-trim_none-pbject-fit"を使う-->
+                        <img src="image/nss_logo.png">
+                    </div>
+                </a>
+            </div>
+            <div class="flex-item"><a href="http://www.sakurai-niigata.co.jp/index.html">
+                    <div class="image-trim_none-object-fit">
+                        <img src="image/sakurai_logo.png">
+                    </div>
+                </a>
+            </div>
+            <div class="flex-item"><a href="https://www.niigata-u.ac.jp/">
+                    <div class="image-trim">
+                        <img src="image/niigataUniv_logo.png">
+                    </div>
+                </a>
+            </div>
+            <div class="flex-item"><a href="https://www.eng.niigata-u.ac.jp/~yukyukai/">
+                    <div class="image-trim_none-object-fit">
+                        <img src="image/yuukyuukai_logo.png">
+                    </div>
+                </a>
+            </div>
+            <div class="flex-item"><a href="http://ecet.eng.niigata-u.ac.jp/index.html">
+                    <div class="image-trim_none-object-fit">
+                        <img src="image/niigataUniv_kougakuryoku.png">
+                    </div>
+                </a>
+            </div>
+            <div class="flex-item"><a href="http://tmfact001.eng.niigata-u.ac.jp/">
+                    <div class="image-trim_none-object-fit">
+                        <img src="image/souzoukoubou_logo.png">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <hr>
+    <main id="main2" class="main2">
+        <section id=bottom class="bottom">
+            <div class="end_flex">
+                <div class="end_flex_left">
+                    <img src="image/logo5.png" alt=" NiCs logo" class="logo_bottom">
+                </div>
+                <div class="end_flex_right">
+                    <li><a class="linklist" href="https://cansat-niigata.github.io/">
+                            HOME
+                        </a></li>
+                    <li><a class="linklist" href="https://cansat-niigata.github.io/history">
+                            HISTORY
+                        </a></li>
+                    <li><a class="linklist" href="https://cansat-niigata.github.io/about">
+                            ABOUT&nbsp;CANSAT
+                        </a></li>
+                    <li><a class="linklist" href="https://cansat-niigata.github.io/education">
+                            EDUCATION
+                        </a></li>
+                    <li><a class="linklist" href="https://cansat-niigata.github.io/teams">
+                            TEAMS
+                        </a></li>
+                    <li><a class="linklist" href="https://cansat-niigata.github.io/partners">
+                            OUR&nbsp;PARTNERS
+                        </a></li>
+                    <li><a class="linklist" href="https://cansat-niigata.github.io/contact">
+                            CONTACT&nbsp;US
+                        </a></li>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>

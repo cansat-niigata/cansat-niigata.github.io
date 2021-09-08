@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="NiCs_style.css">
+    <title>NiCs - 新潟大学 CanSat Project</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="jquery.js"></script>
+    <script>
+        $(document).on('click', '.nav_toggle', function () {
+            $('.nav_toggle, .nav').toggleClass('show');
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <span class="nav_toggle">
+            <i></i>
+            <i></i>
+            <i></i>
+        </span>
+        <nav class="nav">
+            <ul class="nav_menu_ul">
+                <li class="nav_menu_li"><a class="burger_menu" href="https://cansat-niigata.github.io/">
+                        <font color="white" size="5">Home</font>
+                    </a></li>
+                <li class="nav_menu_li"><a class="burger_menu" href="NiCs_website_history.html">
+                        <font color="white" size="5">History</font>
+                    </a></li>
+                <li class="nav_menu_li"><a class="burger_menu" href="NiCs_website_About.html">
+                        <font color="white" size="5">About CanSat</font>
+                    </a></li>
+                <li class="nav_menu_li"><a class="burger_menu" href="NiCs_website_Education.html">
+                        <font color="white" size="5">Education</font>
+                    </a></li>
+                <li class="nav_menu_li"><a class="burger_menu" href="NiCs_website_Teams.html">
+                        <font color="white" size="5">Teams</font>
+                    </a></li>
+                <li class="nav_menu_li"><a class="burger_menu" href="NiCs_website_partners.html">
+                        <font color="white" size="5">Our Partners</font>
+                    </a></li>
+                <li class="nav_menu_li"><a class="burger_menu" href="NiCs_website_Contact.html">
+                        <font color="white" size="5">Contact Us</font>
+                    </a></li>
+            </ul>
+        </nav><a href="https://cansat-niigata.github.io/">
+        <img src="image/logo4.png" alt=" NiCs logo" class="logo"></a>
+        <h1><a class="logo_word" href="https://cansat-niigata.github.io/">
+                <font color="white"><span class="space"></span>NiCs</font>
+            </a></h1>
+    </header>
+
+    <main id="main1" class="main1">
+        <h2>About CanSat</h2>
+        <div class="width90">
+            <b>
+                <br>
+                <font size="5">CanSatとは</font>
+            </b>
+            <p>
+                <span class="space"></span>CanSatまたは缶サットはCan-Satelliteの略で、
+                今後の宇宙開発を担う学生を育てるためのプログラムとして様々な大学及び高専で活動が行われている。
+                カムバックコンペティションと呼ばれるCanSatの競技では機体を空中から投下させ、外部からの操作なしの自動制御でゴール地点を目指す。
+                Can-Satteliteという名前から地球及びその他の惑星や衛星を周回する人工衛星をイメージされることが多いが、CanSatのほとんどは地上を走行する小型探査機である。<br>
+            </p>
+            <b>
+                <font size="5">CanSat競技について</font>
+            </b>
+            <p>
+                <img src="image/aboutCansat1.png" alt="aboutCansat1" class="aboutCansat1"><br>
+                <span class="space"></span>日本国内において大学生が参加するCanSatの大会は能代宇宙イベントと種子島ロケットコンテストの2つが主なCanSatの大会である。<br>
+                <span class="space"></span>CanSatにはランバックとフライバックの2種類の部門があり、ランバックはパラシュートで降下後、地上を走行して目標地点を目指す。これに対し、フライバックパラセイルや飛行機などで降下しながら目標地点を目指すといった違いがあるが、それぞれの部門の最終的な目標は目標地点0mでのゴールである。<br>
+            </p>
+            <b>
+                <font size="5">新潟大学におけるCanSatプロジェクト</font>
+            </b>
+            <p>
+                <span class="space"></span>新潟大学のCanSatプロジェクトはランバック、フライバックの両方のチームを有しており、
+                それぞれのチームで開発を進めている。これに加えて、NiCsにはロケット部門があり、ハイブリットロケットの開発、設計を行っている。CanSatプロジェクトでロケットを開発している団体は少なく、新潟大学CanSatプロジェクトは学生主体でロケットの開発ができる数少ない大学の１つである。<br><br>
+                <span class="space"></span>さらに、NiCsは新潟大学工学力教育センターのものづくりプロジェクトの一環であり、このプロジェクトでの活動を講義として取り扱っている。毎月一度のレポート提出と月例報告会での評価から単位を得ることもでき、モチベーションを持ちながら活動ができる。<br>
+                <span class="space"></span>ものづくりプロジェクトの詳細については<a href="http://ecet.eng.niigata-u.ac.jp/index.html">新潟大学工学力教育センターホームページ</a>よりご確認ください。<br>
+            </p>
+        </div>
+    </main>
+
+    <hr>
+    <main id="partners" class="partners">
+        <p style="text-align: center;">
+            <font font size="5px" font color=#696969>OUR PARTNERS</font>
+        </p>
+        <div class="flex">
+            <div class="flex-item">
+                <a href="https://www.misumi.co.jp/">
+                    <div class="image-trim_none-object-fit">
+                        <!--横のほうが長いとき"image-trim"を使う-->
+                        <img src="image/misumi_logo.png">
+                    </div>
+                </a>
+            </div>
+            <div class="flex-item">
+                <a href="http://www.e-nss.com/">
+                    <div class="image-trim">
+                        <!--縦のほうが長いとき"image-trim_none-pbject-fit"を使う-->
+                        <img src="image/nss_logo.png">
+                    </div>
+                </a>
+            </div>
+            <div class="flex-item"><a href="http://www.sakurai-niigata.co.jp/index.html">
+                    <div class="image-trim_none-object-fit">
+                        <img src="image/sakurai_logo.png">
+                    </div>
+                </a>
+            </div>
+            <div class="flex-item"><a href="https://www.niigata-u.ac.jp/">
+                    <div class="image-trim">
+                        <img src="image/niigataUniv_logo.png">
+                    </div>
+                </a>
+            </div>
+            <div class="flex-item"><a href="https://www.eng.niigata-u.ac.jp/~yukyukai/">
+                    <div class="image-trim_none-object-fit">
+                        <img src="image/yuukyuukai_logo.png">
+                    </div>
+                </a>
+            </div>
+            <div class="flex-item"><a href="http://ecet.eng.niigata-u.ac.jp/index.html">
+                    <div class="image-trim_none-object-fit">
+                        <img src="image/niigataUniv_kougakuryoku.png">
+                    </div>
+                </a>
+            </div>
+            <div class="flex-item"><a href="http://tmfact001.eng.niigata-u.ac.jp/">
+                    <div class="image-trim_none-object-fit">
+                        <img src="image/souzoukoubou_logo.png">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <hr>
+    <main id="main2" class="main2">
+        <section id=bottom class="bottom">
+            <div class="end_flex">
+                <div class="end_flex_left">
+                    <img src="image/logo5.png" alt=" NiCs logo" class="logo_bottom">
+                </div>
+                <div class="end_flex_right">
+                    <li><a class="linklist" href="NiCs_website_home.html">
+                            HOME
+                        </a></li>
+                    <li><a class="linklist" href="NiCs_website_history.html">
+                            HISTORY
+                        </a></li>
+                    <li><a class="linklist" href="NiCs_website_About.html">
+                            ABOUT&nbsp;CANSAT
+                        </a></li>
+                    <li><a class="linklist" href="NiCs_website_Education.html">
+                            EDUCATION
+                        </a></li>
+                    <li><a class="linklist" href="NiCs_website_Teams.html">
+                            TEAMS
+                        </a></li>
+                    <li><a class="linklist" href="NiCs_website_partners.html">
+                            OUR&nbsp;PARTNERS
+                        </a></li>
+                    <li><a class="linklist" href="NiCs_website_Contact.html">
+                            CONTACT&nbsp;US
+                        </a></li>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>

@@ -15,6 +15,26 @@ h2{
     margin-top: 50px;
 }
 
+.title_team{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-left: 0px;
+    margin-right: auto;
+    justify-content: space-around;
+}
+
+.title_teamlogo{
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: auto;
+    justify-content: space-around;
+}
+
 body{
     font-family:'メイリオ', 'Meiryo','ＭＳ ゴシック','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
     padding-top: 40px;
@@ -30,6 +50,30 @@ body{
     z-index: 99999;
     transition: none;
     top: 10px;
+}
+
+.icon_steadiness::before{
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid rgb(49, 56, 151);
+}
+
+.icon_hotogi::before{
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid rgb(255, 147, 84);
+}
+
+.icon_alsomitra::before{
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid rgb(62, 230, 188);
+}
+
+.icon_rocket::before{
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid rgb(236, 87, 99);
 }
 
 header{
@@ -152,6 +196,24 @@ hr{
     width: 100%;
 }
 
+.line_run{
+    background: #3273ff;
+    height: 2px;
+    width: 100%;
+}
+
+.line_fly{
+    background: #32ff87;
+    height: 2px;
+    width: 100%;
+}
+
+.line_rocket{
+    background: #f3a696;
+    height: 2px;
+    width: 100%;
+}
+
 .nav_toggle{
     display: block;
     position: absolute;
@@ -243,6 +305,10 @@ video{
 .width90{
     width: 90%;
     margin: auto;
+}
+
+.team_bottom_img{
+    height: 170px;
 }
 
 .burger_menu{

@@ -386,3 +386,11 @@ video{
     flex-basis: 20%;
     font-size: small;
 }
+
+.update-info{
+    width: 75%;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(15 70 100 / 12%);
+}

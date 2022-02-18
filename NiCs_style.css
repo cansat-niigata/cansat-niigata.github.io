@@ -169,7 +169,7 @@ z-index: -99999;
 .linklist{
     color:rgb(131, 131, 131);
     text-decoration:none;
-    font-size: 12px;
+    font-size: 1.5vmin;
 }
 
 .bottom li{
@@ -177,7 +177,7 @@ z-index: -99999;
 }
 
 .logo_bottom{
-    width: 200px;
+    width: 30vmax;
     height: auto;
     display: flex;
     z-index: -1;
@@ -314,7 +314,7 @@ video{
 .burger_menu{
     text-decoration: none;
     color: white;
-    font-size: 24px;
+    font-size: 4vh;
 }
 
 .partner_logo{
@@ -370,7 +370,7 @@ video{
 }
   
 .flex-item {
-    flex-basis: 26%;
+    flex-basis: 12vh;
     margin: 10px 10px 10px 10px;
 }
 

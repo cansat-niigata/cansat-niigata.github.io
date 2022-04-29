@@ -311,6 +311,10 @@ video{
     height: 170px;
 }
 
+.edu_img{
+    text-align: center;
+}
+
 .burger_menu{
     text-decoration: none;
     color: white;

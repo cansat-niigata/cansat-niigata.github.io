@@ -288,6 +288,11 @@ video{
     margin-right: 65%;
 }
 
+.scroll{
+    height: 300px;
+    overflow-y: scroll;
+}
+
 .inside{
     margin: auto;
 }
@@ -397,4 +402,5 @@ video{
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(15 70 100 / 12%);
+    padding-bottom: 5px;
 }

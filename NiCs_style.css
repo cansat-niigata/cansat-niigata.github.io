@@ -11,11 +11,11 @@ h1 {
     top: -15px;
 }
 
-h2{
+h2 {
     margin-top: 50px;
 }
 
-.title_team{
+.title_team {
     height: 50px;
     display: flex;
     flex-direction: row;
@@ -25,7 +25,7 @@ h2{
     justify-content: space-around;
 }
 
-.title_teamlogo{
+.title_teamlogo {
     height: 70px;
     display: flex;
     flex-direction: row;
@@ -35,13 +35,13 @@ h2{
     justify-content: space-around;
 }
 
-body{
-    font-family:'メイリオ', 'Meiryo','ＭＳ ゴシック','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+body {
+    font-family: 'メイリオ', 'Meiryo', 'ＭＳ ゴシック', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
     padding-top: 40px;
     margin: 0 auto;
 }
 
-.logo{
+.logo {
     width: auto;
     height: 37px;
     display: flex;
@@ -52,31 +52,57 @@ body{
     top: 10px;
 }
 
-.icon_steadiness::before{
+.icon_steadiness::before {
     content: "";
     padding-right: 10px;
     border-left: 7px solid rgb(49, 56, 151);
 }
 
-.icon_hotogi::before{
+.icon_hotogi::before {
     content: "";
     padding-right: 10px;
     border-left: 7px solid rgb(255, 147, 84);
 }
 
-.icon_alsomitra::before{
+.icon_odyssey::before {
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid rgb(255, 84, 84);
+}
+
+.icon_regulus::before {
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid rgb(63,104,238);
+}
+
+
+.icon_alsomitra::before {
     content: "";
     padding-right: 10px;
     border-left: 7px solid rgb(62, 230, 188);
 }
 
-.icon_rocket::before{
+.icon_toki::before {
     content: "";
     padding-right: 10px;
-    border-left: 7px solid rgb(236, 87, 99);
+    border-left: 7px solid rgb(255, 165, 0);
 }
 
-header{
+.icon_asuka::before {
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid rgb(181, 29, 227);
+}
+
+.icon_albireo::before {
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid rgb(255,140, 0);
+}
+
+
+header {
     color: white;
     width: 100%;
     height: 60px;
@@ -87,96 +113,96 @@ header{
     top: 0;
     left: 0;
     display: flex;
-    align-items:center;
+    align-items: center;
     z-index: 99999;
 }
 
-header .nav_menu_li{
+header .nav_menu_li {
     display: flex;
     z-index: 100;
 }
 
-header .nav_menu_li{
+header .nav_menu_li {
     list-style: none;
 }
 
-.vi{
+.vi {
     width: 100%;
     margin: 0;
 }
 
-.main1{
+.main1 {
     width: 95%;
     margin: auto;
 }
 
-.main1_home{
+.main1_home {
     width: 100%;
     margin: 0 auto;
 }
 
-.text_top{
+.text_top {
     text-align: center;
 }
 
-.text_top_incide{
+.text_top_incide {
     text-align: left;
     width: 90%;
     margin: auto;
 }
 
-.home_pictures{
+.home_pictures {
     text-align: center;
 }
 
-.twitter{
+.twitter {
     width: 80%;
     margin: auto;
     text-align: center;
 }
 
-.main2{
+.main2 {
     margin-bottom: 5vw;
 }
 
-.bottom{
-background-color: #fff;
-z-index: -99999;
+.bottom {
+    background-color: #fff;
+    z-index: -99999;
 }
 
-.main1 .contact{
+.main1 .contact {
     margin: auto;
     width: 85%;
 }
 
-.main1 .contact2{    
+.main1 .contact2 {
     margin: auto;
     width: 90%;
     height: 90%;
     background-color: rgb(230, 230, 230);
 }
 
-.bottom .menu{
+.bottom .menu {
     font-size: 50%;
-    margin-top: 10px;       
+    margin-top: 10px;
 }
 
-.logo_word{
+.logo_word {
     color: white;
     text-decoration: none;
 }
 
-.linklist{
-    color:rgb(131, 131, 131);
-    text-decoration:none;
+.linklist {
+    color: rgb(131, 131, 131);
+    text-decoration: none;
     font-size: 1.5vmin;
 }
 
-.bottom li{
+.bottom li {
     list-style: none;
 }
 
-.logo_bottom{
+.logo_bottom {
     width: 30vmax;
     height: auto;
     display: flex;
@@ -185,7 +211,7 @@ z-index: -99999;
     margin-right: 10px;
 }
 
-hr{
+hr {
     position: unset;
     top: 0;
     left: 0;
@@ -196,25 +222,25 @@ hr{
     width: 100%;
 }
 
-.line_run{
+.line_run {
     background: #3273ff;
     height: 2px;
     width: 100%;
 }
 
-.line_fly{
+.line_fly {
     background: #32ff87;
     height: 2px;
     width: 100%;
 }
 
-.line_rocket{
+.line_rocket {
     background: #f3a696;
     height: 2px;
     width: 100%;
 }
 
-.nav_toggle{
+.nav_toggle {
     display: block;
     position: absolute;
     left: 2%;
@@ -222,6 +248,7 @@ hr{
     height: 1.5rem;
     z-index: 10;
 }
+
 .nav_toggle i {
     display: block;
     width: 100%;
@@ -230,28 +257,34 @@ hr{
     position: absolute;
     transition: transform .5s, opacity .5s;
 }
-.nav_toggle i:nth-child(1){
+
+.nav_toggle i:nth-child(1) {
     top: 0;
 }
-.nav_toggle i:nth-child(2){
+
+.nav_toggle i:nth-child(2) {
     top: 0;
     bottom: 0;
     margin: auto;
 }
-.nav_toggle i:nth-child(3){
+
+.nav_toggle i:nth-child(3) {
     bottom: 0;
 }
 
-.nav_toggle.show i:nth-child(1){
+.nav_toggle.show i:nth-child(1) {
     transform: translateY(10px) rotate(-45deg);
 }
-.nav_toggle.show i:nth-child(2){
+
+.nav_toggle.show i:nth-child(2) {
     opacity: 0;
 }
-.nav_toggle.show i:nth-child(3){
+
+.nav_toggle.show i:nth-child(3) {
     transform: translateY(-12px) rotate(45deg);
 }
-.nav{
+
+.nav {
     position: fixed;
     top: 3rem;
     left: 0;
@@ -263,13 +296,14 @@ hr{
     transition: opacity .5s, visibility .5s;
     background-color: transparent;
 }
-.nav.show{
+
+.nav.show {
     opacity: 1;
     visibility: visible;
     background-color: rgb(0, 32, 96);
 }
 
-video{
+video {
     position: relative;
     top: 20px;
     width: 100%;
@@ -278,12 +312,12 @@ video{
     visibility: visible;
 }
 
-.partners{
+.partners {
     width: 80%;
     margin: auto;
 }
 
-.partners_left{
+.partners_left {
     margin-left: 0;
     margin-right: 65%;
 }
@@ -293,48 +327,48 @@ video{
     overflow-y: scroll;
 }
 
-.inside{
+.inside {
     margin: auto;
 }
 
-.space{
+.space {
     margin-right: 10px;
 }
 
-.for_partners{
+.for_partners {
     width: 90%;
     margin: auto;
     background-color: rgba(173, 216, 230, 0.562);
 }
 
-.width90{
+.width90 {
     width: 90%;
     margin: auto;
 }
 
-.team_bottom_img{
+.team_bottom_img {
     height: 170px;
 }
 
-.edu_img{
+.edu_img {
     text-align: center;
 }
 
-.burger_menu{
+.burger_menu {
     text-decoration: none;
     color: white;
     font-size: 4vh;
 }
 
-.partner_logo{
+.partner_logo {
     width: fit-content;
 }
 
-.twitter_qrcode{
+.twitter_qrcode {
     text-align: center;
 }
 
-.aboutCansat1{
+.aboutCansat1 {
     max-width: 90%;
 }
 
@@ -344,14 +378,15 @@ video{
 .image-trim {
     position: relative;
     overflow: hidden;
-    padding-top: 100%; /* 比率 */
+    padding-top: 100%;
+    /* 比率 */
 }
 
 .image-trim img {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -360,7 +395,8 @@ video{
 .image-trim_none-object-fit {
     position: relative;
     overflow: hidden;
-    padding-top: 100%; /* 比率 */
+    padding-top: 100%;
+    /* 比率 */
 }
 
 .image-trim_none-object-fit img {
@@ -377,26 +413,27 @@ video{
     flex-direction: row;
     flex-wrap: wrap;
 }
-  
+
 .flex-item {
     flex-basis: 12vh;
     margin: 10px 10px 10px 10px;
 }
 
-.end_flex{
+.end_flex {
     display: flex;
     justify-content: center;
 }
 
-.end_flex_left{
+.end_flex_left {
     flex-basis: 20%;
 }
-.end_flex_right{
+
+.end_flex_right {
     flex-basis: 20%;
     font-size: small;
 }
 
-.update-info{
+.update-info {
     width: 75%;
     margin-top: 35px;
     margin-left: auto;

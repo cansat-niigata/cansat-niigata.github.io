@@ -76,6 +76,17 @@ body {
     border-left: 7px solid rgb(63,104,238);
 }
 
+.icon_pleiades::before {
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid rgb(0,0,0);
+}
+
+.icon_overlights::before {
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid rgb(77,220,70);
+}
 
 .icon_alsomitra::before {
     content: "";

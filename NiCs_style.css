@@ -374,6 +374,9 @@ video {
 .partner_logo {
     width: fit-content;
 }
+.instagram_qrcode {
+    text-align: center;
+}
 
 .X_qrcode {
     text-align: center;
